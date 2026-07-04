@@ -1,0 +1,11 @@
+/* Hide pilcrow redmine adds to heading links */
+/*2*/
+a.wiki-anchor { display: none; margin-left: 6px; text-decoration: none; }
+a.wiki-anchor:hover { color: #aaa !important; text-decoration: none; }
+h1:hover a.wiki-anchor, 
+h2:hover a.wiki-anchor, 
+h3:hover a.wiki-anchor,
+h4:hover a.wiki-anchor, 
+h5:hover a.wiki-anchor, 
+h6:hover a.wiki-anchor { display: inline; color: #ddd; }
+
